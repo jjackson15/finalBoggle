@@ -1,0 +1,68 @@
+/* Boggle.css */
+
+/* Main container for the input section */
+.boggle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field for guesses */
+.guess-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.guess-input:focus {
+  border-color: #0056b3;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Results display */
+.results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.results h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.results p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}

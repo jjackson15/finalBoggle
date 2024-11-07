@@ -1,0 +1,46 @@
+/* .board {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 220px;
+}
+
+
+/* src/Board.css */
+.Tile-paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50px;  Set width */
+  height: 50px; /* Set height to match width for a square shape */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* SelectGridSize.css */
+.select-grid-size {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  appearance: none;
+  background-color: #f0f0f0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
